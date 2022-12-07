@@ -430,6 +430,9 @@ svg.cart{
             flex-direction: column;
             align-items: center;
         }
+        .col_3{
+            padding-left: 0px;
+        }
         
     }
     @media screen and (max-width:375px) {
