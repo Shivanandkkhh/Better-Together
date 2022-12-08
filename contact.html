@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Serif+4:wght@200;400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/common.mini.css">
-    <link rel="stylesheet" href="./assets/css/contact.mini.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
     <title>Contacts</title>
 </head>
 
@@ -116,31 +116,42 @@
                     <a href="tel:(317) 846-2884"> (317) 846-2884</a><br>
                     <a href="mailto:sakshiwalave2019@gmail.com" target="_blank">Iinfo@bettertogether.us</a>
                 </div>
-            </div>
-            <div class="form">
+
+
                 <div class="form_txt">
                     <p>We’re here to help</p>
                     <h3 style="width: 244px;">Stay in Touch!</h3>
                 </div>
 
                 <form action="" target="_blank" class="form_template">
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                    <label for="phone"> Phone number</label>
-                    <input type="tel" id="phone" name="phone">
-                    <label for="date">Anniversary Date</label>
-                    <input type="date" id="Anniversary" name="Anniversary">
-                    <label for="tname">Message</label>
-                    <textarea name="tname" id="lname">
-                    </textarea>
+                    <div class="form-box">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-box">
+                        <label for="phone"> Phone number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-box">
+                        <label for="date">Anniversary Date</label>
+                        <input type="text" id="Anniversary" name="Anniversary">
+                    </div>
+                    <div class="form-box">
+                        <label for="tname">Message</label><br>
+                        <textarea name="tname" id="lname">
+                        </textarea>
+                    </div>
                     <!-- <input type="text" id="fname" name="fname"> -->
                     <div class="send_btn">
                         <input type="button" onclick="alert('Thank You')" value="send">
-                         
+
                     </div>
                 </form>
+
             </div>
         </div>
     </section>

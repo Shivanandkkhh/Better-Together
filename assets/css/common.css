@@ -374,14 +374,17 @@ svg.cart{
             font-size: 16px;
 
         }
+        .col_1_content{
+            padding: 34px 0 46px 0;
+        }
         .class_footer .column{
             margin: 60px 0 ;
         }
         .col_1 img{
-        padding-bottom: 34px;
+        padding-bottom: 0px;
          }
         .col_3{
-        grid-column: 2/4;
+        grid-column: 2/5;
         padding-bottom: 20px;
         }
         .col_1 ,.col_2 , .col_4{
@@ -404,7 +407,12 @@ svg.cart{
             padding-bottom: 30px;
         }
           /*section s9 footer end  */
-    
+
+          /* section mini footer  */
+          .mini_footer_mail{
+            padding-bottom: 20px;
+          }
+        /* section mini footer */
     }
     @media screen and (max-width:520px){
         .header_items{
