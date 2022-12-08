@@ -227,11 +227,14 @@
                 input[type=button]{
                     margin: 28px 0 60px 0;
                 }
+                 /* section form end */
+                
+                /* section explore */
                 .section_explore{
                     padding: 0px;
+                    padding-bottom: 61px;
                 }
-                /* section form end */
-                /* section explore */
+               
                 .class_explore h3{
                     width: auto;
                    
@@ -239,7 +242,7 @@
                 .class_explore{
                     width: auto;
                     padding: 50px 20px;
-                    margin-bottom: 61px;
+                    
                 }
             /* section explore end */
             
