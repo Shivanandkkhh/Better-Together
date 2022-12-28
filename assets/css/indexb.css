@@ -1,5 +1,7 @@
-
-
+.nav_content li {
+    padding: 36px 0 26px;
+}
+/* section nevigation bar  end */
 .class_dropdown a ,.na_item a{
 text-decoration: none;
 color: #000000;
@@ -20,7 +22,7 @@ color: #000000;
     min-height: 643px;
    display: flex;
    align-items: center;
-   padding-top: 21px;
+   padding-top: 26px;
 }
 
 .banner_text {
@@ -46,9 +48,10 @@ color: #000000;
     color: #7692FF;
     padding: 17px 34px;
     cursor: pointer;
+    text-decoration: none;
 }
 .rect_btn :hover{
-    background: red;
+    background: #E85F5C;
     color: #ffffff;
 
 }
@@ -128,6 +131,7 @@ color: #000000;
     width: 223px;
     display: flex;
     background: #E85F5C;
+    border: 1px solid #E85F5C;
     justify-content: center;
     margin: 10px auto;
     cursor: pointer;
@@ -135,7 +139,7 @@ color: #000000;
 }
 .box_container a:hover{
     background: transparent;
-    border: 1px solid #7692FF;
+    border: 1px solid #7692FF ;
     color: #7692FF;
 }
 .box_container .btn {
@@ -594,6 +598,6 @@ margin-bottom: 79px;
         }
         
     }
- 
+    @media screen and (max-width:345px){.banner_text{font-size: 30px;}}
   
 

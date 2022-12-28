@@ -133,7 +133,7 @@ body{
     
 }
 .nav_content  li{
-    padding: 36px 0;
+    padding: 32px 0 31px 0;
     margin-left: 75px;
     list-style: none;
    
@@ -159,6 +159,29 @@ svg.cart{
  svg.menu{
     padding-bottom: 3px;
 }
+/* section nevigation bar */
+.dropdown:hover .dropdown-options{
+    display: block;
+    position: absolute;
+    color: white;
+}
+.dropdown-options{
+    position: absolute;
+    line-height: 30px;
+    display: none;
+    background: #FFFFFF;
+    width: 230PX;
+}
+.a-dropdown{
+    border-top: 1px solid #8E8E8E;
+}
+.a-dropdown:hover{
+    background: gainsboro;
+}
+.dropdown-options a{
+    font-size: 14px;
+    color: #000000;
+}
 /*  section navigation bar */
 /* section footer  */
 .s9_footer{
@@ -169,7 +192,7 @@ svg.cart{
     display: grid;
      grid-template-columns:2.14fr 1fr 1fr 2fr;
    
-   margin: 99px 0 57px 0;
+   margin: 98px 0 57px 0;
 }
 
 .column h4{
@@ -242,21 +265,33 @@ svg.cart{
 
      border-bottom: 1px solid #8E8E8E;;
 }
-.footer_mail {
-    text-align: left;
-    width: 65%;
-    border-bottom: 1px solid #000000;
+.col_4 form{
+   display: flex;
+}
+input[type=Email]{
+    width: 215px;
+    margin-bottom: 0px;
+    background: transparent;
+    padding-bottom: 10px;
+    outline-style: none;
+    border: none;
+    border-bottom:1px solid #8E8E8E ;
+}
+input[type=Email]::placeholder{
+    color: black;
+}
+Button[type=button]{
+    margin-left: 10px;
+    font-weight: 800;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom:1px solid #8E8E8E ;
 }
 
-.subscribe_btn {
-    
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 2;
-    border-bottom: 1px solid #000000;
-}
 .footer_icon{
-   margin-top: 43px;
+   margin-top: 48px;
     
 }
 
@@ -314,7 +349,7 @@ svg.cart{
             list-style: none;
         }
         .nav_content  li:last-child{
-            margin-right: 55px;
+            margin-right: 52px;
         }
 
         /* section hero banner image and text */
@@ -387,10 +422,13 @@ svg.cart{
         grid-column: 2/5;
         padding-bottom: 20px;
         }
-        .col_1 ,.col_2 , .col_4{
+        .col_1 ,.col_2 {
          grid-column: 1/2;
                 
          } 
+         .col_4{
+            grid-column: 1/6;
+         }
          .col_2 a,.col_3 a ,.col_3 p{
             font-size: 14px;
         }

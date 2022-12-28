@@ -1,0 +1,373 @@
+.nav_content li {
+  padding: 32px 0 31px;
+}
+
+/* section nevigation bar  end */
+.class_dropdown a,
+.na_item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* section Events / Painting with a Twist: Date Night  text */
+.heading_text{
+  background: #7692FF;
+
+}
+
+.h1_heading_text {
+  font-size: 14px;
+  line-height: 1;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F6F8F3;
+  padding: 41px 50px;
+}
+
+/* section Events / Painting with a Twist: Date Night  text end */
+
+/* section select(product) images */
+/* .row {
+  display: flex;
+  width: 100%;
+  padding-top: 64px;
+}
+
+.wrap {
+  padding-right: 71px;
+}
+
+.wrap,
+.paint-with-twist {
+  width: 50%;
+}
+
+.sub-img-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  padding: 17px 0 68px 0;
+}
+
+.sub-img-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-2 img {
+  max-width: 132px;
+
+}
+
+.col-2 {
+  position: relative;
+ 
+}
+
+
+.sub-img-col {
+
+  cursor: pointer;
+}
+
+ .col-2 img {
+  max-width: 588px;
+} */
+.wrap_container{
+display: flex;
+width: 100%;
+padding-top: 64px;
+}
+.wrap ,.product_info{
+  width: 50%;
+}
+.product_img img{
+  width: 100%;
+  max-width: 588px;
+}
+.product_img{
+  position: relative;
+}
+.thumbnail_img img{
+  width: 100%;
+  display: block;
+  max-width: 132px;
+}
+.thumbnail_img {
+  /* position: absolute; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  padding: 17px 0 68px 0;
+}
+/* product deatails (price, rating, buttons) */
+.product_info{
+  padding-left: 71px;
+}
+.product_heading_text h2 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  color: #E85F5C;
+
+}
+
+.product_rating p {
+  padding-bottom: 23px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.product_rating svg {
+  padding: 29px 4px 23px 6px;
+}
+
+.select-number {
+  display: flex;
+  border-bottom: 1px solid #8E8E8E;
+  /* max-width: 89px; */
+}
+
+.cart_botton {
+  width: 70%;
+  display: flex;
+}
+
+input[type=number] {
+  max-width: 85px;
+  min-height: 43px;
+  padding: 0;
+  margin-bottom: 31px;
+  text-align: center;
+  border: 1px solid #E7E7E7
+}
+
+.cart-btn {
+  margin: 0 19px;
+}
+.add-cart-btn ,.buy-now-btn,input[type=number],.feedback button{
+  font-family: 'Mont';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.add-cart-btn {
+  width: 100%;
+  height: 50px;
+  background: #E85F5C;
+  color: #F6F8F3;
+  border: none;
+  margin: 0 19px; 
+}
+
+.buy-now-btn {
+  width: 40%;
+  height: 50px;
+  background: #7692FF;
+  color: #F6F8F3;
+  border: none;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 19px;
+
+}
+
+.social-media h6 {
+  font-size: 10px;
+  padding-right: 32px;
+}
+
+.social-media .facebook-icon {
+  padding-right: 24px;
+}
+
+/*  section select(product) images end */
+
+/* section decription and review */
+/* .feedback {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.description {
+  padding-right: 54px;
+}
+
+
+.feedback_text {
+
+  font-size: 16px;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 97px;
+
+}
+
+.review-button.active{
+  border-bottom: 1px solid #8E8E8E;
+}
+.review_button {
+  margin-bottom: 29px;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.feedback button:hover {
+  text-decoration: underline;
+} */
+ .sub-container{
+  max-width: 874px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 97px;
+}
+.texts{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 38px;
+}
+.texts button{
+  font-family: 'Mont';
+  margin-right: 54px;
+  font-size: 14px;
+  padding-bottom: 4px;
+  outline: none;
+  font-weight: 700;
+  border: none;
+  background: white;
+}
+.texts button.active{
+  border-bottom: 1px solid #8E8E8E;
+}
+.paraText{
+  margin-top: 29px;
+}
+.reviews{
+  display: none;
+}
+.sub-container .para{
+  font-family: 'Hind';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+} 
+/* section decription and review end */
+
+/* start media queries */
+
+/* media query for 980px */
+/* @media screen and (max-width:980px) {
+  .class-in {
+    margin-right: 19px;
+  }
+
+  .add-cart-btn {
+    width: 65%;
+  }
+} */
+
+/* media query for 768px */
+@media screen and (max-width:768px) {
+
+  /* section header */
+  .header_items.text {
+    display: none;
+  }
+
+  .nav_content .mobile_logo {
+    display: block;
+    max-width: 146px;
+    min-height: 41px;
+  }
+
+  .nav_content .desktop_logo {
+    display: none;
+  }
+
+  /* section navigation bar */
+  /* section Events / Painting with a Twist: Date Night */
+  .product_heading_text {
+
+    font-size: 14px;
+  }
+
+ .thumbnail_img img {
+    max-width: none;
+  }
+  .thumbnail_img{
+    padding-bottom: 40px;
+  }
+  .social-media {
+    margin-bottom: 22px;
+  }
+  .buy-now-btn {
+    width: 60%;
+  }
+  .cart_botton{
+   width: 100%;
+  }
+  /* section Events / Painting with a Twist: Date Night end */
+  /* section select(product) images */
+  .wrap_container {
+    flex-direction: column;
+  }
+
+  .wrap ,.product_info{
+    width: 100%;
+    padding-left: 0 ;
+  }
+  .sub-container{
+    padding-top: 0;
+  }
+  /* section select(product) images end */
+}
+
+/* media query for 520px */
+@media screen and (max-width:520px) {
+
+  /* section select(product) images */
+  .select-number {
+    flex-direction: column;
+  }
+  /* .class-in{
+    width: 100%;
+  } */
+  .add-cart-btn {
+    margin: 0 0 20px 19px;
+  }
+
+  .buy-now-btn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .wrap_container{
+    padding-top: 30px;
+  }
+  .thumbnail_img{
+    padding-bottom: 30.12px;
+  }
+
+  /* section select(product) images end */
+
+}
+
+@media screen and (max-width:375px) {
+  .buy-now-btn {
+    /* width: 70%; */
+    margin-bottom: 20px;
+  }
+
+}
